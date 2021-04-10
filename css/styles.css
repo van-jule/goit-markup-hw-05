@@ -137,7 +137,6 @@ address {
   color: #ffffff;
 }
 
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -224,11 +223,9 @@ address {
   border-bottom: 1px solid #ececec;
 }
 
-
 .header-contacts-item {
   margin-right: 10px;
 }
-
 
 .contacts-link {
   display: flex;
@@ -478,8 +475,6 @@ address {
   margin-right: 30px;
 } */
 
-
-
 .clients-list .logo-icon {
   fill: var(--icons-color);
   transition: fill 250ms var(--timming-function);
@@ -506,12 +501,10 @@ address {
   border: 1px solid var(--accent-color);
 }
 
-
 .footer {
   padding-top: 72px;
   padding-bottom: 60px;
 }
-
 
 .footer-icons-title {
   font-size: 14px;
@@ -527,12 +520,10 @@ address {
   transition: background-color 250ms var(--timming-function);
 }
 
-
 .footer .social-icons-link:hover,
 .footer .social-icons-link:focus {
   background-color: var(--accent-color);
 }
-
 
 .footer .icon {
   fill: #ffffff;
@@ -582,7 +573,8 @@ address {
   padding: 6px 22px;
   border-color: transparent;
 
-  transition: background-color 250ms var(--timming-function), box-shadow 250ms var(--timming-function), color 250ms var(--timming-function);
+  transition: background-color 250ms var(--timming-function), box-shadow 250ms var(--timming-function),
+    color 250ms var(--timming-function);
 }
 
 .project-filter-button:hover,
@@ -603,8 +595,7 @@ address {
 .project-item:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
-
+/* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 
 .project-item:hover .project-content,
 .project-item:focus .project-content {
