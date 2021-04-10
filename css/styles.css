@@ -65,7 +65,7 @@ address {
 .link {
   text-decoration: none;
   color: inherit;
-  transform: color 250ms var(--timming-function);
+  transition: color 250ms var(--timming-function);
 }
 
 .link:hover,
