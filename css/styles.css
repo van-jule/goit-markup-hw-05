@@ -336,13 +336,13 @@ address {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-  transform: scaleX(0);
+  transform: scaleX(1);
   transition: transform 250ms var(--timming-function);
 }
 
 .link.current:hover::after,
 .link.current:focus::after {
-  transform: scaleX(1);
+  transform: scaleX(0);
 }
 
 .dark-bg {
